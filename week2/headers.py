@@ -1,7 +1,9 @@
 import requests
 
 headers = {"some_header": "123"}
-response = requests.get("https://playground.learnqa.ru/ajax/api/show_all_headers", headers=headers)
+response = requests.get(
+    "https://playground.learnqa.ru/ajax/api/show_all_headers", headers=headers
+)
 print(response.json())
 print(response.headers)
 
