@@ -3,6 +3,7 @@ class TestExamples:
         a = 8
         b = 9
         assert a + b == 17
+
     """
     мудреный запуск 
     python -m pytest week3/text_example.py -k "test_check_math"
@@ -10,6 +11,7 @@ class TestExamples:
     -m это указывается модуль который надо использовать
     -k - это ключ, в нем указывается название теста, который надо запустить
     """
+
     def test_check_math2(self):
         a = 8
         b = 0
